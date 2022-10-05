@@ -1,6 +1,7 @@
 <template>
   <div id="app">
  <HeaderComponent/>
+ <MainComponent />
 
     </div>
  
@@ -8,6 +9,7 @@
 
 <script>
 import HeaderComponent from './components/HeaderComponent'
+import MainComponent from './components/MainComponent.vue';
 
 
 
@@ -15,9 +17,9 @@ import HeaderComponent from './components/HeaderComponent'
 export default {
   name: 'App',
   components: {
-  HeaderComponent
-
-  },
+    HeaderComponent,
+    MainComponent
+},
 data() {
   return {
     
@@ -37,6 +39,7 @@ data() {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
