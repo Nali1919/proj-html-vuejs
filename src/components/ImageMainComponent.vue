@@ -2,7 +2,7 @@
   <div class="ac-container my-1">
     <div class="ac-row ">
         <div class="col">
-            <img  src="../assets/img/h3-img-1.jpg" alt="">
+            <img class="ii"  src="../assets/img/h3-img-1.jpg" alt="">
         </div>
         <div class="col">
             <img  src="../assets/img/h3-img-2.jpg" alt="">
@@ -34,7 +34,6 @@ name: 'ImageMainComponent'
     display: flex;
     column-gap: 2px;
 }
-
 
 
 </style>
