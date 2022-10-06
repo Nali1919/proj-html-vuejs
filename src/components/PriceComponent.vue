@@ -1,8 +1,9 @@
 <template>
-  <div class="ac-container m">
+  <div class="ac-container">
     <div class="row">
-        <div class="col-6">
-            <img src="../assets/img/h1-img-4.jpg" alt="">
+        <div class="col-6 relative">
+            <img class="img-relative" src="../assets/img/h1-img-4.jpg" alt="">
+           <div><img class="img-white" src="../assets/img/h1-img-7n.png" alt=""></div>
         </div>
         <div class="col-6 ac-price ">
              <h1>Specials*</h1>
@@ -13,11 +14,11 @@
                 <p class="kk"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam dolor expe</p>
              </div>
                <div>
-                <span> <strong>$20</strong> COMBO PICCOLO</span>
+                <span> <strong>$20</strong> COMBO MEZZO</span>
                 <p class="kk"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam dolor expe</p>
              </div>
                <div>
-                <span> <strong>$30</strong> COMBO PICCOLO</span>
+                <span> <strong>$30</strong> COMBO GRANDE</span>
                 <p class="kk"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam dolor expe</p>
              </div>
          </div>
@@ -34,9 +35,7 @@ name: 'PriceComponent'
 </script>
 
 <style lang="scss" scoped>
-.ac-container img{
-width: 100%;
-}
+
 .ac-price{
 max-width: 400px;
 margin: 0 auto;
@@ -48,6 +47,19 @@ left: 30px;
 }
 strong{
     color: red;
+}
+.img-white{
+position: absolute;
+width: 200px;
+bottom: 180px;
+left: 220px;
+
+}
+.img-relative{
+width: 100%;
+}
+.relative{
+position: relative;
 }
 
 
