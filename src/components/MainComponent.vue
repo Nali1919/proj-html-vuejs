@@ -6,6 +6,7 @@
 <BoysImageComponent />
 <StaffComponent />
 <SponsorComponent/>
+<PizzeMenuComponent />
 </div>
 </template>
 
@@ -16,6 +17,8 @@ import PriceComponent from "./PriceComponent.vue";
 import BoysImageComponent from "./BoysImageComponent.vue";
 import StaffComponent from "./StaffComponent.vue";
 import SponsorComponent from "./SponsorComponent.vue";
+import PizzeMenuComponent from "./PizzeMenuComponent.vue";
+
 
 
 
@@ -27,7 +30,8 @@ export default {
     PriceComponent,
     BoysImageComponent,
     StaffComponent,
-    SponsorComponent
+    SponsorComponent,
+    PizzeMenuComponent
 }
 
 }
