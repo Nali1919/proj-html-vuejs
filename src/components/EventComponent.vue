@@ -2,7 +2,7 @@
 
 <div class="container-ac">
     <div class="row-ac">
-        <div class=" img-right">
+        <div class=" img-left">
          <div class="flex-title">
             <span>Made with love</span>
              <h2>Delish Pizza Deals</h2> 
@@ -45,7 +45,7 @@
 
             
         </div>
-        <div class=" img-left">
+        <div class=" img-right">
 
 
         </div>
@@ -67,14 +67,14 @@ name : 'EventComponent'
 .container-ac{
 margin-top: 50px;
 }
-.img-right{
+.img-left{
 background-image: url(../assets/img/background-img-header.png);
 height: 600px;
 padding: 50px;
 width: 50%;
 
 }
-.img-left{
+.img-right{
 background-image: url(../assets/img/h3-img-5a.jpg);
 background-position: center;
 background-size: cover;

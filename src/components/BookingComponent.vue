@@ -53,7 +53,6 @@ column-gap: 50px;
 button{
 width: 200px;
 padding: 10px;
-cursor: text;
 }
 span{
 color: white;
@@ -64,7 +63,7 @@ display: flex;
 justify-content: space-between;
 }
 .ordina{
- width: 200px;
+width: 200px;
 padding: 10px;   
 color: white;
 background-color: orange;
