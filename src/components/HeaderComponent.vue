@@ -1,34 +1,34 @@
 <template>
-  <div class="ac-container ">
-      <div>
-        <button class="ac-button">Order Online</button>
-      </div>
+  <div class="ac-container">
+    <div class="navbar">
+<div><button>Order Online</button></div>
+<div class="link-menu">
+  <img class="baffo" src="../assets/img/svg-0.svg" alt="">
+  <a href="">HOME</a>
+ 
+ <a href="">PAGES</a>
+ <a href="">MENU</a>
+<img class="don-peppe-img" src="../assets/img/h5-logo-divided-header.png" alt="">
+ <a href="">EVNET</a>
+ <a href="">BLOG</a>
+ <a href="">LANDING</a>
+</div>
 
+<div class="terza-section">
+  <div class="consegna">
+  <img class="delivery" src="../assets/img/svg-1.svg" alt="">
+  <span>CART</span>
+</div>
+<div class="cerca">
+<i class="fa-solid fa-magnifying-glass"></i>
+<span>SEARCH</span>
+</div>
+</div>
 
-      <div class="navbar-menu"> 
-        <a href="">HOME</a>
-        <a href="">PAGES</a>
-        <a href="">MENU</a>
-        <a href="">
-          <img class="don-peppe-img" src="../assets/img/h5-logo-divided-header.png" alt="">
-        </a>
-        <a href="">EVENT</a>
-        <a href="">BLOG</a>
-        <a href="">LANDING</a>
-      </div>
-
-
-  
-
-      <div class="ggs">
-      <img class="img-svg" src="../assets/img/svg-1.svg" alt="">
-      <span>Cart</span>
-      
-      </div>
-
-      <div class="img-pizza1">
-        <img class="img-pizza" src="../assets/img/h3-rev-img-6.png" alt="">
-      </div>
+    
+    </div>
+    <img class="urban" src="../assets/img/h3-rev-img-5.png" alt="">
+    <img class="pizza" src="../assets/img/h3-rev-img-6.png" alt="">
   </div>
 </template>
 
@@ -43,60 +43,99 @@ export default {
 </script>
 
 <style lang="scss" scoped>
- 
- .ac-container{
-background-color: black;
-  background-image: url(../assets/img/h3-rev-img-5.png);
-  height: 400px;
-  display: flex;
-  justify-content: space-around;
-  padding: 40px;
-  position: relative;
- }
- .ac-row{
-max-width: 1200px;
-margin: 0 auto;
- }
- .ac-button{
-width: 100px;
-background-color: orange;
-color: white;
-border: 0;
-padding: 1px;
-cursor: pointer;
- }
- .img-svg{
-  background-color:  white;
- }
- span,a{
-  color: white;
-  text-decoration: none;
- }
- .navbar-menu{
-  display: flex;
-  column-gap: 20px;
-  padding: 3px;
- }
- .don-peppe-img{
-  width: 100px;
-  position: relative;
-  bottom: 30px
- }
- .img-pizza{
+.ac-container{
+background-image: url(../assets/img/background-img-header.png);
+height: 450px;
+position: relative;
+}
+.urban{
+width: 500px;
+position: absolute;
+margin: auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.pizza{
 width: 200px;
 position: absolute;
-right: 610px;
-top: 100px;
- }
- .ggs{
+margin: auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.jj{
+width: 50px;
+}
+.navbar{
 display: flex;
-align-items: center;
-column-gap: 5px;
+justify-content: space-evenly;
+align-items: flex-start;
+padding: 30px;
+
+}
+button{
+color: white;
+background-color: orange;
+border: 0;
+padding: 5px;
+font-size: 10px;
+}
+.link-menu{
+display: flex;
+align-items: flex-start;
+column-gap: 20px;
+}
+.don-peppe-img{
+width: 70px;
+}
+a,span{
+text-decoration: none;
+font-size: 10px;
+color: white;
+}
+.baffo{
+display: inline;
+width: 15px;
 position: relative;
-bottom: 148px;
+left: 18px;
+top: 1px;
+}
+.delivery{
+  width: 20px;
+  position: relative;
+  bottom: 2px;
+}
+.consegna{
+display: flex;
+align-items: flex-start;
+column-gap: 5px;
+}
+.cerca{
+  display: flex;
+  align-items: flex-start;
+  column-gap: 5px;
+}
+.fa-magnifying-glass{
+color: white;
+font-size: 12px;
+}
+.terza-section{
+display: flex;
+column-gap: 15px;
+}
 
- }
 
+
+
+
+
+
+
+
+ 
 
 
 </style>

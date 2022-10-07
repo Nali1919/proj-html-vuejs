@@ -5,6 +5,7 @@
 <PriceComponent />
 <BoysImageComponent />
 <StaffComponent />
+<SponsorComponent/>
 </div>
 </template>
 
@@ -14,6 +15,8 @@ import SentenceComponent from "./SentenceComponent.vue";
 import PriceComponent from "./PriceComponent.vue";
 import BoysImageComponent from "./BoysImageComponent.vue";
 import StaffComponent from "./StaffComponent.vue";
+import SponsorComponent from "./SponsorComponent.vue";
+
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
     SentenceComponent,
     PriceComponent,
     BoysImageComponent,
-    StaffComponent
+    StaffComponent,
+    SponsorComponent
 }
 
 }

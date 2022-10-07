@@ -2,7 +2,7 @@
  <div class="ac-container my-1">
     <div class="ac-row ">
         <div class="col">
-            <img class="ii"  src="../assets/img/h1-team-1a-700x700.jpg" alt="">
+            <img  src="../assets/img/h1-team-1a-700x700.jpg" alt="">
         </div>
         <div class="col">
             <img  src="../assets/img/h1-team-2a.jpg" alt="">

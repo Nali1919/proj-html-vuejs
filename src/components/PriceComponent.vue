@@ -21,8 +21,8 @@
                 <span> <strong>$30</strong> COMBO GRANDE</span>
                 <p class="kk"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam dolor expe</p>
              </div>
-         </div>
-         
+
+        </div>  
     </div>
   </div>
 </template>
