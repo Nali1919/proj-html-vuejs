@@ -84,7 +84,7 @@ right: 80px;
 }
 .valdostana-position{
 position: relative;
-right: 50px;
+right: 40px;
 }
 .francescana-position{
 position: relative;
@@ -100,8 +100,8 @@ width: 150px;
 height: 150px;  
 }
 .campagnola-position{
-    position: relative;
-    left: 80px;
+ position: relative;
+ left: 80px;
 }
 s{
 color: gray;
@@ -114,7 +114,8 @@ margin: 0;
 }
 .container-pizee{
 width: 100%;
-margin: 0 
+margin: 0;
+
 }
 .container-ac{
 max-width: 500px;
