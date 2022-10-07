@@ -1,5 +1,5 @@
 <template>
-  <div class="container-ac">
+<div class="container-ac">
  <div class="row-ac">
    <div class="img-left">
      <div class="flex-column">
@@ -24,8 +24,6 @@
          <span>Salerno, AZ 85022</span>
          <span>(602)867-1010</span>
         </div>
-        
-        
       </div>
        <div class="flex-column">
         <h6>WORKING HOURS</h6>
@@ -52,9 +50,8 @@
            <span class="white"> <i class="fa-brands fa-facebook-f"></i> </span>
             <span class="white"> <i class="fa-brands fa-instagram"></i>  </span> 
             <span class="white"> <i class="fa-brands fa-linkedin-in"></i> </span> 
-            
         </div>
-        </div>
+       </div>
       </div>
       <div class="text">
         <h4>THE DON PEPPE CREW 
@@ -69,11 +66,10 @@
      <div class="img-right">
        
 
-      </div>
+     </div>
 
     </div>
     
-
   </div>
 </template>
 
@@ -112,7 +108,7 @@ height: 500px;
 .flex-column{
 display: flex;
 flex-direction: column;
-width: 33%;
+
 }
 h6{
 color: orange;

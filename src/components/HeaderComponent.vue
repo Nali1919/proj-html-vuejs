@@ -74,6 +74,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: flex-start;
 padding: 30px;
+margin-left: 50px;
 
 }
 button{
