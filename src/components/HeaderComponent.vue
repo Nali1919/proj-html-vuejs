@@ -25,16 +25,36 @@
 </div>
 </div>
 
+
+
     
     </div>
     <img class="urban" src="../assets/img/h3-rev-img-5.png" alt="">
     <img class="pizza" src="../assets/img/h3-rev-img-6.png" alt="">
+
+<div class="title"><h5>Sedi Urban:</h5></div>
+     <div v-for="city in Citta" :key="city.ristorante">
+      <div class="flex">
+    {{city.citta}}:
+    {{city.ristorante}}
+    
+
+      </div>
+   
+    
+    </div>
+
+   
+
   </div>
 </template>
 
 <script>
 export default {
   name: 'HeaderComponent',
+  props: {
+    Citta: Array
+  }
 
 
 }
@@ -126,6 +146,16 @@ font-size: 12px;
 .terza-section{
 display: flex;
 column-gap: 15px;
+}
+.flex{
+  display: flex;
+  color: white;
+  padding: 10px;
+
+}
+.title{
+color: red;
+padding: 10px;
 }
 
 

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
- <HeaderComponent/>
+ <HeaderComponent :Citta='ArrayCitta'/>
  <MainComponent />
  <FooterComponent />
 
@@ -25,6 +25,26 @@ export default {
 },
 data() {
   return {
+    ArrayCitta: [
+      {
+        citta: 'Salerno',
+      ristorante: 'PizzaSuper'
+      },
+       {
+         citta: 'Napoli',
+        ristorante: 'Sorbillo'
+      },
+        {
+          citta: 'Palermo',
+        ristorante: 'TheSudPizza'
+       },
+        {
+          citta: 'Bari',
+        ristorante: 'RossoPomodoro'
+       },
+       
+    
+   ]
     
     
   }
