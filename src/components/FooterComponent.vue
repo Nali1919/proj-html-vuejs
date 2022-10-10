@@ -72,7 +72,6 @@
           <div>
             <img class="footer-img" src="../assets/img/h1-img-7n.png" alt="">
           </div>
-
         </div>
       </div>
       <div class="img-right col-6">
@@ -86,7 +85,10 @@
 
 <script>
 export default {
-  name: 'FooterComponent'
+  name: 'FooterComponent',
+  props: {
+    Citta: Array
+  }
 
 }
 </script>
