@@ -32,19 +32,22 @@
     <img class="urban" src="../assets/img/h3-rev-img-5.png" alt="">
     <img class="pizza" src="../assets/img/h3-rev-img-6.png" alt="">
 
-    <div class="title">
-      <h5>Sedi Urban:</h5>
-    </div>
-    <div v-for="city in Citta" :key="city.ristorante">
-      <div class="flex">
-        {{city.citta}}:
-        {{city.ristorante}}
 
+    <div class="restaurant">
+      <div class="title">
+        <h5>Sedi Urban:</h5>
+      </div>
+      <div v-for="city in Citta" :key="city.ristorante">
+        <div class="flex">
+          {{city.citta}}:
+          {{city.ristorante}}
+
+
+        </div>
 
       </div>
-
-
     </div>
+
 
 
 
@@ -171,5 +174,11 @@ span {
 .title {
   color: red;
   padding: 10px;
+}
+
+.restaurant {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
 }
 </style>
