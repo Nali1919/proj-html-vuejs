@@ -66,7 +66,7 @@
         <div class="footer-basso">
           <div>
             <div> <span class="orange">Created with<i class="fa-regular fa-heart"></i> .by</span> <span
-                class="green">Qqode interactives</span>
+                class="green">Qqode interactive</span>
             </div>
           </div>
           <div>
@@ -172,7 +172,7 @@ h4 {
   justify-content: space-between;
   align-items: flex-end;
   color: white;
-  margin: 20px;
+  margin: 40px;
 }
 
 .footer-img {
