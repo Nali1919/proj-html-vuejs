@@ -36,9 +36,10 @@ export default {
 
 <style lang="scss" scoped>
 .ac-price {
-  max-width: 530px;
-  margin: 0 50px;
+  max-width: 500px;
+  margin: 0 auto;
   margin-top: 80px;
+  padding: 10px;
 
 }
 
