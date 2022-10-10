@@ -179,6 +179,6 @@ span {
 .restaurant {
   display: flex;
   justify-content: center;
-  padding-top: 300px;
+  padding-top: 280px;
 }
 </style>
